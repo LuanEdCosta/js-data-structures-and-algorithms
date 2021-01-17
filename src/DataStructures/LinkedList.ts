@@ -1,6 +1,14 @@
+/**
+ * This is an implementation of a Generic Linked List.
+ *
+ * PS: This generic linked list can be used only with primitive data types because it compares the values using "===".
+ * To use with objects or other types you need to pass a comparator to the LinkedList class.
+ * See more in: https://github.com/trekhleb/javascript-algorithms/blob/master/src/data-structures/linked-list/LinkedList.js
+ */
+
 class ListNode<T = any> {
   value: T
-  next: ListNode<T> | null | undefined
+  next: ListNode<T> | null
 
   constructor(value: T) {
     this.value = value
@@ -9,7 +17,7 @@ class ListNode<T = any> {
 }
 
 class LinkedList<T = any> {
-  private head: ListNode<T> | null | undefined
+  private head: ListNode<T> | null
 
   constructor() {
     this.head = null
