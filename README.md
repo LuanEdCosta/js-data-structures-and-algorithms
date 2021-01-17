@@ -7,6 +7,7 @@ This project contains my data structures and algorithms study notes in JavaScrip
 **Using Code Runner VsCode Extension**
 
 - Download the extension **Code Runner** for VsCode
+- To run TypeScript files using Code Running Extension you need to install `ts-node` globally with `yarn global add ts-node` or `npm i -g ts-node`
 - Right click in a file > Run Code
 - See the result in console
 
@@ -14,8 +15,10 @@ This project contains my data structures and algorithms study notes in JavaScrip
 
 - Clone the project in your local machine
 - Install dependencies with `yarn install` or `npm i`
-- Run `yarn start` to compile and watch changes .ts files
+- Run `yarn start` or `npm start` to compile and watch changes .ts files
+- Edit index.html script tag to run the file you want
 - Run `index.html` with **Live Server / Lite Server** or open this file in the browser, but without a server you will have to press F5 to reload the page on every change in .ts files
+- Press F12 and select the console tab to see the logs
 
 ## :link: Study References (LINKS)
 
