@@ -1,0 +1,18 @@
+{
+  "name": "js-data-structures-and-algorithms",
+  "description": "My Data Structures and Algorithms Study Notes Using JavaScript/TypeScript",
+  "author": {
+    "name": "Luan Eduardo da Costa",
+    "email": "luan1346@gmail.com",
+    "url": "https://github.com/LuanEdCosta"
+  },
+  "scripts": {
+    "start": "yarn tsc -w"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}

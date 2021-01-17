@@ -1,0 +1,30 @@
+# :book: What This Project Is
+
+This project contains my data structures and algorithms study notes in JavaScript, but i'm actually using TypeScript to write clean and maintainable code.
+
+## :arrow_right: How to Run
+
+**Using Code Runner VsCode Extension**
+
+- Download the extension **Code Runner** for VsCode
+- Right click in a file > Run Code
+- See the result in console
+
+**Running in the browser**
+
+- Clone the project in your local machine
+- Install dependencies with `yarn install` or `npm i`
+- Run `yarn start` to compile and watch changes .ts files
+- Run `index.html` with **Live Server / Lite Server** or open this file in the browser, but without a server you will have to press F5 to reload the page on every change in .ts files
+
+## :link: Study References (LINKS)
+
+- https://itnext.io/algorithms-and-data-structures-in-javascript-a71548f902cb
+
+- https://github.com/trekhleb/javascript-algorithms/tree/master/src/data-structures/linked-list
+
+- https://www.educative.io/blog/javascript-data-structures
+
+## :man: Author
+
+Luan Eduardo da Costa | luan1346@gmail.com
