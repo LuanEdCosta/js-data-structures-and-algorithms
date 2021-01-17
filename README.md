@@ -28,6 +28,8 @@ This project contains my data structures and algorithms study notes in JavaScrip
 
 - https://www.educative.io/blog/javascript-data-structures
 
+- https://www.youtube.com/watch?v=njTh_OwMljA&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8&index=1&ab_channel=HackerRank
+
 ## :man: Author
 
 Luan Eduardo da Costa | luan1346@gmail.com
