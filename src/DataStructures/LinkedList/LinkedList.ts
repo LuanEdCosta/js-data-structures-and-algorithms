@@ -6,24 +6,16 @@
  * See more in: https://github.com/trekhleb/javascript-algorithms/blob/master/src/data-structures/linked-list/LinkedList.js
  */
 
-class ListNode<T = any> {
-  value: T
-  next: ListNode<T> | null
+import { SimpleNode } from '../../Utils/index.js'
 
-  constructor(value: T) {
-    this.value = value
-    this.next = null
-  }
-}
-
-class LinkedList<T = any> {
-  private head: ListNode<T> | null
+export class LinkedList<T = any> {
+  private head: SimpleNode<T> | null
 
   constructor() {
     this.head = null
   }
 
-  appendNode(node: ListNode<T>) {
+  appendNode(node: SimpleNode<T>) {
     if (!this.head) {
       this.head = node
       this.head.next = null
@@ -35,7 +27,7 @@ class LinkedList<T = any> {
     current.next = node
   }
 
-  prependNode(node: ListNode<T>) {
+  prependNode(node: SimpleNode<T>) {
     if (!this.head) {
       this.head = node
       this.head.next = null
@@ -67,7 +59,7 @@ class LinkedList<T = any> {
     return false
   }
 
-  getNode(value: T): ListNode<T> | null {
+  getNode(value: T): SimpleNode<T> | null {
     if (!this.head) return null
 
     let current = this.head
@@ -82,18 +74,3 @@ class LinkedList<T = any> {
     return null
   }
 }
-
-const linedList = new LinkedList<number>()
-
-linedList.appendNode(new ListNode(1))
-linedList.appendNode(new ListNode(2))
-linedList.appendNode(new ListNode(3))
-
-linedList.prependNode(new ListNode(0))
-
-console.log(linedList.removeNode(0))
-
-console.log(linedList.getNode(0))
-console.log(linedList.getNode(2))
-
-console.log(JSON.stringify(linedList, null, 2))
