@@ -31,7 +31,7 @@ export class Stack<T = any> {
   }
 
   peek(): T | null {
-    return this.top ? this.top.value : null
+    return this.top?.data || null
   }
 
   getSize() {

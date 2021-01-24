@@ -16,7 +16,7 @@ export class Queue<T = any> {
   }
 
   peek(): T | null {
-    return this.head ? this.head.value : null
+    return this.head?.data || null
   }
 
   isEmpty() {
@@ -41,11 +41,11 @@ export class Queue<T = any> {
   remove(): T | null {
     if (!this.head) return null
 
-    const headValue = this.head.value
+    const headData = this.head.data
     this.head = this.head.next
     if (!this.head) this.tail = null
     this.size = this.size - 1
 
-    return headValue
+    return headData
   }
 }

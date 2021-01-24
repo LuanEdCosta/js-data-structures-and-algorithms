@@ -1,9 +1,9 @@
 export default class SimpleNode<T = any> {
-  value: T
+  data: T
   next: SimpleNode<T> | null
 
-  constructor(value: T) {
-    this.value = value
+  constructor(data: T) {
+    this.data = data
     this.next = null
   }
 }
