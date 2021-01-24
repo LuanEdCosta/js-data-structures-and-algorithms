@@ -1,4 +1,4 @@
-export class SimpleNode<T = any> {
+export default class SimpleNode<T = any> {
   value: T
   next: SimpleNode<T> | null
 

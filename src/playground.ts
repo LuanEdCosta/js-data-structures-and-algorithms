@@ -1,3 +1,3 @@
-import { LinkedList } from './DataStructures/index.js'
+import { HashMap } from './DataStructures/index.js'
 
-LinkedList.runTests()
+HashMap.runTests()
