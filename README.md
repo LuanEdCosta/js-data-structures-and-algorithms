@@ -2,6 +2,14 @@
 
 This project contains my data structures and algorithms study notes in JavaScript, but i'm actually using TypeScript to write clean and maintainable code.
 
+## :file_folder: Project Structure
+
+The project contains data structures, algorithms and exercises from the [Project Euler](https://projecteuler.net/). The Project Euler is a series of challenging mathematical/computer programming problems that can help us to learn more about math stuff while having fun.
+
+- [src/Algorithms](src/Algorithms)
+- [src/DataStructures](src/DataStructures)
+- [src/ProjectEuler](src/ProjectEuler)
+
 ## :arrow_right: How to Run
 
 **Running in the browser**
@@ -23,6 +31,10 @@ This project contains my data structures and algorithms study notes in JavaScrip
 - https://www.educative.io/blog/javascript-data-structures
 
 - https://www.youtube.com/watch?v=njTh_OwMljA&list=PLLXdhg_r2hKA7DPDsunoDZ-Z769jWn4R8&index=1&ab_channel=HackerRank
+
+- https://projecteuler.net/
+
+- https://github.com/TheAlgorithms/Javascript
 
 ## :man: Author
 
