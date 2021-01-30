@@ -12,7 +12,6 @@ export class HashMap<T = any> {
   private keys: { [key: string]: number }
 
   constructor(maxSize: number) {
-    // The map is important to create a different instance for each bucket
     // If you put "new LinkedList()" inside the fill function all buckets will point to the same memory address
     this.buckets = Array(maxSize)
       .fill(null)
@@ -27,7 +26,6 @@ export class HashMap<T = any> {
   }
 
   set(key: string, data: T) {
-    // The hash number should never be bigger than the maxSize
     const hash = this.getHash(key)
     this.keys[key] = hash
 
@@ -35,7 +33,7 @@ export class HashMap<T = any> {
     const nodeData = bucket.find(({ key: nodeKey }) => nodeKey === key)
 
     if (nodeData) {
-      // Update the data because nodeData points to the node data in memory
+      // nodeData points to the node data object inside the bucket
       nodeData.data = data
     } else {
       const newNode = new SimpleNode<BucketData>({ key, data })
