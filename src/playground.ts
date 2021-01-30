@@ -1,3 +1,3 @@
-import { DoublyLinkedList } from './DataStructures/index.js'
+import { Problem1 } from './ProjectEuler/index.js'
 
-DoublyLinkedList.runTests()
+Problem1.run()
