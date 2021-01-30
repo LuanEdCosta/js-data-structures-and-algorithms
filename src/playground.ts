@@ -1,3 +1,3 @@
-import { HashMap } from './DataStructures/index.js'
+import { DoublyLinkedList } from './DataStructures/index.js'
 
-HashMap.runTests()
+DoublyLinkedList.runTests()
