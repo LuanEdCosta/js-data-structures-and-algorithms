@@ -9,6 +9,7 @@ The project contains data structures, algorithms and exercises from the [Project
 - [src/Algorithms](src/Algorithms)
 - [src/DataStructures](src/DataStructures)
 - [src/ProjectEuler](src/ProjectEuler)
+- [src/Utils](src/Utils)
 
 ## :arrow_right: How to Run
 
