@@ -39,4 +39,4 @@ The project contains data structures, algorithms and exercises from the [Project
 
 ## :man: Author
 
-Luan Eduardo da Costa | luan1346@gmail.com
+Luan Eduardo da Costa | [Follow me on Linkedin](https://www.linkedin.com/in/luaneducosta/)
