@@ -1,6 +1,6 @@
-# :book: What This Project Is
+# :book: About
 
-This project contains my data structures and algorithms study notes in JavaScript, but i'm actually using TypeScript to write clean and maintainable code.
+This project contains my data structures and algorithms study notes in JavaScript, but I'm actually using TypeScript to write clean and maintainable code.
 
 ## :file_folder: Project Structure
 
